@@ -1,7 +1,7 @@
 # Automated Climate Data Pipeline Engine
 A production-ready data engineering framework designed to demonstrate multi-threaded network API extraction, file system I/O streams, integrated runtime logging, and clean transformation matrix pipelines.
 
-## Tech Stack \& Skills Displayed
+## Tech Stack & Skills Displayed
 
 * **Language Framework:** Python
 
