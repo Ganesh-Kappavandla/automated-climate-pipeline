@@ -16,11 +16,11 @@ automated-climate-pipeline/
 ├── .gitignore          # Safeguards remote repos from runtime logs and database outputs
 ├── README.md           # Engineering specifications and local execution guide
 ├── main.py            # Main operational script runner entry point
-├── pipeline\\\_core/     # Modular system core files
-│   ├── \\\_\\\_init\\\_\\\_.py     # Packages folder as recognizable namespace module
+├── pipeline\_core/     # Modular system core files
+│   ├── \_\_init\_\_.py     # Packages folder as recognizable namespace module
 │   └── scrapers.py     # Main engine class containing stream fetching logic
 ├── logs/              # Isolated directory for file tracking runtime exceptions
-└── output\\\_data/       # Secure file target location for exported tabular CSV records
+└── output\_data/       # Secure file target location for exported tabular CSV records
 ```
 
 ## Engineering Implementation Roadmap
