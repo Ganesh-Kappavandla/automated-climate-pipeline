@@ -16,15 +16,14 @@ class ClimateDataPipeline:
     open-source climate stream JSON records into structured CSV datasets.
     """
     def __init__(self):
-coordinates
-        self.api_url = "https://api.open-meteo.com/v1/forecast"
-        self.params = {
-            "latitude": 17.3850,
-            "longitude": 78.4867,
-            "current_weather": True
-        }
-        self.output_path = "output_data/current_metrics.csv"
-
+     self.api_url = "https://api.open-meteo.com/v1/forecast"
+     self.params = {
+         "latitude": 17.3850,
+         "longitude": 78.4867,
+         "current_weather": True
+     }
+     self.output_path = "output_data/current_metrics.csv"
+       
     def fetch_live_stream(self):
         """Extracts raw JSON payloads from public sensor network endpoints with error safety."""
         try:
